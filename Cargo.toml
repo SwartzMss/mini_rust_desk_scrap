@@ -1,0 +1,27 @@
+[package]
+name = "scrap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cfg-if = "1.0"
+num_cpus = "1.15"
+lazy_static = "1.4"
+mini_rust_desk_common = { git = "https://github.com/SwartzMss/mini_rust_desk_common", rev = "6ed0bf1aae81ee3de4e84f8158d840a9812bd29a"}
+webm = { git = "https://github.com/rustdesk-org/rust-webm" }
+serde = {version="1.0", features=["derive"]}
+repng = "0.2"
+docopt = "1.1"
+quest = "0.3"
+
+[dependencies.winapi]
+version = "0.3"
+default-features = true
+features = ["dxgi", "dxgi1_2", "dxgi1_5", "d3d11", "winuser", "winerror", "errhandlingapi", "libloaderapi"]
+
+[build-dependencies]
+target_build_utils = "0.3"
+bindgen = "0.65"
+
+
+
