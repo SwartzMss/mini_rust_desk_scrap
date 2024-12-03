@@ -801,7 +801,7 @@ dependencies = [
 [[package]]
 name = "mini_rust_desk_common"
 version = "0.1.0"
-source = "git+https://github.com/SwartzMss/mini_rust_desk_common?rev=6ed0bf1aae81ee3de4e84f8158d840a9812bd29a#6ed0bf1aae81ee3de4e84f8158d840a9812bd29a"
+source = "git+https://github.com/SwartzMss/mini_rust_desk_common?rev=31e2d32cf1dff1896f8523e49b334af1137c3b0e#31e2d32cf1dff1896f8523e49b334af1137c3b0e"
 dependencies = [
  "anyhow",
  "base64",

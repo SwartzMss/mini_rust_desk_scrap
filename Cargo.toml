@@ -7,7 +7,7 @@ edition = "2021"
 cfg-if = "1.0"
 num_cpus = "1.15"
 lazy_static = "1.4"
-mini_rust_desk_common = { git = "https://github.com/SwartzMss/mini_rust_desk_common", rev = "6ed0bf1aae81ee3de4e84f8158d840a9812bd29a"}
+mini_rust_desk_common = { git = "https://github.com/SwartzMss/mini_rust_desk_common", rev = "31e2d32cf1dff1896f8523e49b334af1137c3b0e"}
 webm = { git = "https://github.com/rustdesk-org/rust-webm" }
 serde = {version="1.0", features=["derive"]}
 repng = "0.2"
